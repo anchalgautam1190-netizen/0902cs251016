@@ -1,0 +1,30 @@
+
+Algorithm MERGE(L1, L2)
+
+Step 1: Start.
+
+Step 2: Create an empty result list.
+        Set head = NULL and tail = NULL.
+
+Step 3: While L1 != NULL and L2 != NULL:
+
+    a. If L1.data <= L2.data:
+          Select the node from L1.
+          Move L1 to L1.next.
+
+    b. Otherwise:
+          Select the node from L2.
+          Move L2 to L2.next.
+
+    c. Attach the selected node to the
+       end of the result list.
+
+Step 4: If L1 != NULL, attach the remaining
+        nodes of L1 to the result list.
+
+Step 5: If L2 != NULL, attach the remaining
+        nodes of L2 to the result list.
+
+Step 6: Display the merged list.
+
+Step 7: Stop.
